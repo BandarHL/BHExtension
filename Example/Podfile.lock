@@ -1,0 +1,16 @@
+PODS:
+  - BHExtension (1.0)
+
+DEPENDENCIES:
+  - BHExtension (from `../`)
+
+EXTERNAL SOURCES:
+  BHExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BHExtension: 3a822c911f39a93b3944a0330705a120a5a598e3
+
+PODFILE CHECKSUM: 33099dce9065183a467791cc6c90d6769803b335
+
+COCOAPODS: 1.5.3

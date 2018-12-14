@@ -1,0 +1,32 @@
+{
+  "name": "BHExtension",
+  "version": "1.0",
+  "summary": "its simple library for edit some views in storyborad",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BandarHL/BHExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BandarHL": "31299470+BandarHL@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/BandarHL/BHExtension.git",
+    "tag": "1.0"
+  },
+  "social_media_url": "https://twitter.com/BandarHL",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BHExtension/Classes/**/*",
+  "resource_bundles": {
+    "BHExtension": [
+      "BHExtension/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}
