@@ -50,4 +50,4 @@ pod 'BHExtension'
 
 # License
 
-BHExtension is available under the MIT license. See the LICENSE file for more info.
+BHExtension is available under the MIT license. [See the LICENSE file for more info.](https://github.com/BandarHL/BHExtension/blob/master/LICENSE)
