@@ -37,12 +37,7 @@
 
 # Installation
 
-BHExtension is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'BHExtension'
-```
+- Download the project files and move 'BHExtension' folder to your project
 
 # Author
 
