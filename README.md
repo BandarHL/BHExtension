@@ -5,16 +5,19 @@
 # BHView:
 - Edit corner radius of any UIVIew in StoryBoard
 - set Gradient Color of any UIView in StoryBoard
+- Set shadow and edit it in StoryBoard
 
 
 # BHButtonView:
 - Edit corner radius of any UIButton in StoryBoard
-
+- Set shadow and edit it in StoryBoard
 
 
 # BHImageView:
 - Edit corner radius of any UIImageView in StoryBoard
 
+# BHNavigationBar:
+- Set shadow and edit it in StoryBoard
 
 
 # Sreenshot:
