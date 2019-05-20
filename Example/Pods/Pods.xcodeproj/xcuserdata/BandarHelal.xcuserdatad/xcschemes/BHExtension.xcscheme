@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C18C57746ED20B3799A71ADAE9132871"
+               BlueprintIdentifier = "369BC729073A29295275323324DA2D5D"
+               BuildableName = "BHExtension.framework"
                BlueprintName = "BHExtension"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "BHExtension.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -1,6 +1,6 @@
 //
 //  UIView+CornerRadius.swift
-//  BHStore
+//  BHExtension
 //
 //  Created by BandarHelal on 10/12/2018.
 //  Copyright © 2018 BandarHelal. All rights reserved.
@@ -11,6 +11,30 @@ import UIKit
 
 @IBDesignable
 open class BHView: UIView {
+    
+    @IBInspectable var ShadowColor: UIColor = UIColor.clear {
+        didSet {
+            self.layer.shadowColor = ShadowColor.cgColor
+        }
+    }
+    
+    @IBInspectable var ShadowOpacity: Float = 0 {
+        didSet {
+            self.layer.shadowOpacity = ShadowOpacity
+        }
+    }
+    
+    @IBInspectable var ShadowOffset: CGSize = CGSize.zero {
+        didSet {
+            self.layer.shadowOffset = ShadowOffset
+        }
+    }
+    
+    @IBInspectable var ShadowRadius: CGFloat = 0 {
+        didSet {
+            self.layer.shadowRadius = ShadowRadius
+        }
+    }
     
     @IBInspectable var SetCornerRadiusValue: CGFloat = 0 {
         didSet {

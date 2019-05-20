@@ -1,5 +1,5 @@
 PODS:
-  - BHExtension (1.0)
+  - BHExtension (0.1.0)
 
 DEPENDENCIES:
   - BHExtension (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BHExtension: 3a822c911f39a93b3944a0330705a120a5a598e3
+  BHExtension: 2dc2cfd5d53b71a0a96cc61c7857433c4b91857a
 
 PODFILE CHECKSUM: 33099dce9065183a467791cc6c90d6769803b335
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0.rc.2

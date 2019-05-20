@@ -1,20 +1,27 @@
 //
-//  UIButton+BHExtension.swift
+//  NavigationBar+BHExtension.swift
 //  BHExtension
 //
-//  Created by BandarHelal on 11/12/2018.
-//  Copyright © 2018 BandarHelal. All rights reserved.
+//  Created by BandarHelal on 19/05/2019.
+//  Copyright © 2019 BandarHelal. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
+
 @IBDesignable
-open class BHButtonView: UIButton {
+class NavigationBar_BHExtension: UINavigationBar {
     
     @IBInspectable var ShadowColor: UIColor = UIColor.clear {
         didSet {
             self.layer.shadowColor = ShadowColor.cgColor
+        }
+    }
+    
+    @IBInspectable var RemoveBarIndicator: Bool = false {
+        didSet {
+            self.shadowImage = UIImage()
+            self.setBackgroundImage(UIImage(), for: .default)
         }
     }
     
@@ -36,10 +43,12 @@ open class BHButtonView: UIButton {
         }
     }
     
-    @IBInspectable var CornerRadiusOfButton: CGFloat = 0 {
-        didSet {
-            layer.cornerRadius = CornerRadiusOfButton
-        }
-    }
     
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.isTranslucent = false
+        self.layer.masksToBounds = false
+    }
+
 }

@@ -1,6 +1,6 @@
 //
 //  UIImageView+BHExtension.swift
-//  BHStore
+//  BHExtension
 //
 //  Created by BandarHelal on 11/12/2018.
 //  Copyright © 2018 BandarHelal. All rights reserved.

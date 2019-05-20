@@ -8,26 +8,35 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BHExtension'
-  s.version          = '1.0'
-  s.summary          = 'its simple library for edit some views in storyborad'
+  s.version          = '2.0'
+  s.summary          = 'its simple library for edit some views in storyborad.'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/BandarHL/BHExtension'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'BandarHL' => '31299470+BandarHL@users.noreply.github.com' }
+  s.author           = { 'GoldenApple9' => 'bandarhelal180@gmail.com' }
   s.source           = { :git => 'https://github.com/BandarHL/BHExtension.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/BandarHL'
+  # s.social_media_url = 'https://twitter.com/BandarHL'
 
-  s.ios.deployment_target = '8.0'
+  # s.ios.deployment_target = '8.0'
 
   s.source_files = 'BHExtension/Classes/**/*'
   
-s.resource_bundles = {
-    'BHExtension' => ['BHExtension/Assets/*.png']
-}
+  # s.resource_bundles = {
+  #   'BHExtension' => ['BHExtension/Assets/*.png']
+  # }
 
-s.frameworks = 'UIKit', 'Foundation'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end
