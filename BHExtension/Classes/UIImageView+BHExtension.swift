@@ -2,11 +2,9 @@
 //  UIImageView+BHExtension.swift
 //  BHExtension
 //
-//  Created by BandarHelal on 11/12/2018.
-//  Copyright © 2018 BandarHelal. All rights reserved.
+//  Created by BandarHelal on 12/02/1441 AH.
 //
 
-import Foundation
 import UIKit
 
 @IBDesignable
@@ -17,6 +15,18 @@ open class BHImageView: UIImageView {
             layer.cornerRadius = CornerRadiusOfImageView
             layer.masksToBounds = true
             clipsToBounds = true
+        }
+    }
+    
+    @IBInspectable var BorderColor: UIColor = UIColor.clear {
+        didSet {
+            layer.borderColor = BorderColor.cgColor
+        }
+    }
+    
+    @IBInspectable var BorderWidth: CGFloat = 0 {
+        didSet {
+            layer.borderWidth = BorderWidth
         }
     }
     

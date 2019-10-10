@@ -1,16 +1,14 @@
 //
-//  UIView+CornerRadius.swift
+//  UIButton+BHExtension.swift
 //  BHExtension
 //
-//  Created by BandarHelal on 10/12/2018.
-//  Copyright © 2018 BandarHelal. All rights reserved.
+//  Created by BandarHelal on 12/02/1441 AH.
 //
 
-import Foundation
 import UIKit
 
 @IBDesignable
-open class BHView: UIView {
+open class BHButtonView: UIButton {
     
     @IBInspectable var ShadowColor: UIColor = UIColor.clear {
         didSet {
@@ -36,10 +34,9 @@ open class BHView: UIView {
         }
     }
     
-    @IBInspectable var SetCornerRadiusValue: CGFloat = 0 {
+    @IBInspectable var CornerRadiusOfButton: CGFloat = 0 {
         didSet {
-            layer.cornerRadius = SetCornerRadiusValue
-            
+            layer.cornerRadius = CornerRadiusOfButton
         }
     }
     
@@ -54,6 +51,21 @@ open class BHView: UIView {
             setGradientColor()
         }
     }
+    
+    @IBInspectable var StartPoint: CGPoint = .zero {
+        didSet {
+            let layer = self.layer as! CAGradientLayer
+            layer.startPoint = StartPoint
+        }
+    }
+    
+    @IBInspectable var EndPoint: CGPoint = .zero {
+        didSet {
+            let layer = self.layer as! CAGradientLayer
+            layer.endPoint = EndPoint
+        }
+    }
+    
     override open class var layerClass: AnyClass {
         get {
             return CAGradientLayer.self

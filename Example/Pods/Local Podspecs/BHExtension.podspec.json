@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of BHExtension.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/GoldenApple9/BHExtension",
+  "homepage": "https://github.com/bandarHL/BHExtension",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "GoldenApple9": "bandarhelal180@gmail.com"
+    "bandarHL": "bandarhelal180@gmail.com"
   },
   "source": {
-    "git": "https://github.com/GoldenApple9/BHExtension.git",
+    "git": "https://github.com/bandarHL/BHExtension.git",
     "tag": "0.1.0"
   },
   "platforms": {

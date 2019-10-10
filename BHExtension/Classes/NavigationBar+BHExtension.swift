@@ -2,8 +2,7 @@
 //  NavigationBar+BHExtension.swift
 //  BHExtension
 //
-//  Created by BandarHelal on 19/05/2019.
-//  Copyright © 2019 BandarHelal. All rights reserved.
+//  Created by BandarHelal on 12/02/1441 AH.
 //
 
 import UIKit
@@ -52,3 +51,4 @@ class NavigationBar_BHExtension: UINavigationBar {
     }
 
 }
+
