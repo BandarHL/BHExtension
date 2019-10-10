@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BHExtension_Example' do
+  pod 'BHExtension', :path => '../'
+
+  target 'BHExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
